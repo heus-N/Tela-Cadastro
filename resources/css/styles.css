@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100&family=Victor+Mono:wght@100&display=swap');
+
+:root {
+    --bg-color: #f2f2f2;
+    --btn-bg-color: #6271b3;
+    --btn-hover-color: #546199;
+    --btn-delete-color: #873535;
+    --btn-hover-delete-color: #752e2e;
+}
+
+
+.salvarBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.salvarBtn button {
+    background-color: var(--btn-bg-color);
+    align-items: center;
+    padding: 0.3rem 2.5rem;
+}
+
+.salvarBtn button:hover {
+    background-color: var(--btn-hover-color);
+}
+
+.newBtn button {
+    background-color: var(--btn-bg-color);
+    align-items: center;
+    padding: 0.3rem 2.5rem;
+}
+
+.newBtn button:hover {
+    background-color: var(--btn-hover-color);
+}
+
+.deleteBtn button {
+    background-color: var(--btn-delete-color);
+    align-items: center;
+    padding: 0.3rem 2.5rem;
+}
+
+.deleteBtn button:hover {
+    background-color: var(--btn-hover-delete-color);
+}
+
+
+#order-form-container {
+    padding: 1.5em;
+    max-width: 700px;
+}
+
+.title {
+    font-weight: 500%;
+    font-size: 200%;
+    display: flex;
+}
+
+.form-group-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numero {
+    max-width: 100px;
+}
+
+#steps {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    font-size: 14px;
+    padding: 10px 15px;
+    border: solid 1px var(--bg-color);
+}
